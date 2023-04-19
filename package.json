@@ -1,0 +1,22 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "Simple Readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhdavey/readmegenerator.git"
+  },
+  "author": "Harley Davey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhdavey/readmegenerator/issues"
+  },
+  "homepage": "https://github.com/jhdavey/readmegenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
+}
