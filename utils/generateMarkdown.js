@@ -4,7 +4,7 @@ function generateMarkdown(responses) {
   const licenseUrl = renderLicenseLink(responses.license);
   const result = (`
   # ${responses.title}
-  \n![License](${badge}
+  \n![License](${badge})
   \n## Description
   \n${responses.description}
   \n## Table of Contents
