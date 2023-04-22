@@ -1,34 +1,32 @@
 //Generate markdown for README
 function generateMarkdown(responses) {
-  const badge = renderLicenseBadge(responses.license)
-  const licenseUrl = renderLicenseLink(responses.license)
-  const result = (`# ${responses.title}
+  const badge = renderLicenseBadge(responses.license);
+  const licenseUrl = renderLicenseLink(responses.license);
+  const result = (`#${responses.title}
   \n![License](${badge} \n
   ${responses.description}
   \n## Table of Contents
-  \n* [Installation](#Installation)
-  \n* [Instructions](#Instructions)
-  \n* [Contributors](#Contributors)
+  \n* [Installation](#Instructions)
+  \n* [Contributing](#Contributing)
   \n* [Tests](#Tests)
   \n* [License](#License)
   \n## Installation
-  \n${responses.installation}
+  \n${responses.instructions}
   \n## Usage
   \n${responses.usage}
   \n## Contributing
-  \n${responses.contributing}
+  \n${responses.contribute}
   \n## Tests
-  \n${responses.tests}
+  \n${responses.test}
   \n## License
   \nLicense: ${responses.license} - see the [License](${licenseUrl}) page.
   \n## Questions
+  \n### GitHub profile: ${responses.gitUser}
+  \n### Contact Me at: ${responses.email}
   `)
 
   return result;
 };
-
-var badge;
-var link;
 
 //Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
