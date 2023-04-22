@@ -1,11 +1,11 @@
 
   # README Generator
   
-![License](https://img.shields.io/static/v1?label=license&message=Apache+2.0&color=green) 
+![License]( 
 
   ## Description
   
-This is an example of the README generator app that I've built for you!
+This app was built using npm inquirer to give the user prompts in the command line and then take those prompts and output a quality README.md file. It is simple to use and should help speed up development of your projects!
   
 ## Table of Contents
   
@@ -23,19 +23,19 @@ This is an example of the README generator app that I've built for you!
   
 ## Installation
   
-Install all necessary packages to use this app
+To install, be sure to open your command line and type ==npm install===, then run the app using ==node index.js==
   
 ## Usage
   
-To begin, open your CLI, type "node index", answer the prompts, and then the app will create your README.md file automatically!
+To use the app, once you have it install, simply open a file in the directory you're working using "Open in Integrated Terminal", then enter ==node index.js==. Follow the prompts and your README.md file will be automatically generated once you've answered all of the prompts.
   
 ## Contributing
   
-Please consider contributing to my project
+Please let me know if you'd like to contribute to my project!
   
 ## Tests
   
-If you find any errors while testing, please contact me
+Please contact me below if you run into any bugs.
   
 ## Questions
   
@@ -43,10 +43,10 @@ Have more questions? Head over to my github profile or email me:
   
 [Checkout my GitHub](www.github.com/jhdavey)
   
-[Email me!](testing@yopmail.com)
+[Email me!](hdwebdevelopment@gmail.com)
   
 ## License
   
-License: Apache License 2.0 - see the [License](https://choosealicense.com/licenses/apache-2.0/) page.
+License: MIT - see the [License]() page.
 
   
