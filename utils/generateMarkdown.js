@@ -4,8 +4,8 @@ function generateMarkdown(responses) {
   const licenseUrl = renderLicenseLink(responses.license);
   const result = (`
   # ${responses.title}
-  \n![License](${badge})
-  \n## Description
+  \n![License](${badge} \n
+  ## Description
   \n${responses.description}
   \n## Table of Contents
   \n* [Installation](#Installation)
@@ -24,8 +24,8 @@ function generateMarkdown(responses) {
   \n${responses.test}
   \n## Questions
   \nHave more questions? Head over to my github profile or email me:
-  \n[GitHub Profile:] (www.github.com/${responses.gitUser})
-  \n${responses.email}
+  \n[Checkout my GitHub](www.github.com/${responses.gitUser})
+  \n[Email me!](${responses.email})
   \n## License
   \nLicense: ${responses.license} - see the [License](${licenseUrl}) page.
 
