@@ -2,13 +2,17 @@
 function generateMarkdown(responses) {
   const badge = renderLicenseBadge(responses.license);
   const licenseUrl = renderLicenseLink(responses.license);
-  const result = (`#${responses.title}
-  \n![License](${badge} \n
-  ${responses.description}
+  const result = (`
+  # ${responses.title}
+  \n![License](${badge}
+  \n## Description
+  \n${responses.description}
   \n## Table of Contents
-  \n* [Installation](#Instructions)
+  \n* [Installation](#Installation)
+  \n* [Usage](#Usage)
   \n* [Contributing](#Contributing)
   \n* [Tests](#Tests)
+  \n* [Questions](#Questions)
   \n* [License](#License)
   \n## Installation
   \n${responses.instructions}
@@ -18,11 +22,13 @@ function generateMarkdown(responses) {
   \n${responses.contribute}
   \n## Tests
   \n${responses.test}
+  \n## Questions
+  \nHave more questions? Head over to my github profile or email me:
+  \n[GitHub Profile:] (www.github.com/${responses.gitUser})
+  \n${responses.email}
   \n## License
   \nLicense: ${responses.license} - see the [License](${licenseUrl}) page.
-  \n## Questions
-  \n### GitHub profile: ${responses.gitUser}
-  \n### Contact Me at: ${responses.email}
+
   `)
 
   return result;
