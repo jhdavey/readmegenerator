@@ -27,7 +27,11 @@ To install, pull down the files from the repo. Then run `npm install` in the dir
   
 ## Usage
   
-Once you have installed the app, right click on one of your files in the directory you're working in. Click "Open in Integrated Terminal". Then in your command line, type `node index.js`. You will see that you begin to get prompts to fill in the details for your README sections. Fill out each prompt. At the end, the app will generate your README file automatically! 
+Once you have installed the app, right click on one of your files in the directory you're working in. Click "Open in Integrated Terminal". Then in your command line, type `node index.js`. You will see that you begin to get prompts to fill in the details for your README sections. Fill out each prompt. At the end, the app will generate your README file automatically!
+
+Here is a video demonstration of the app in action:
+
+[Check Out the Video](https://youtu.be/6VEXsVy3lsI)
   
 ## Contributing
   
