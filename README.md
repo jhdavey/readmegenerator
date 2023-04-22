@@ -47,6 +47,6 @@ Have more questions? Head over to my github profile or email me:
   
 ## License
   
-License: MIT - see the [License](https://img.shields.io/static/v1?label=license&message=MIT&color=${badge.color}) page.
+License: MIT - see the [License](https://choosealicense.com/licenses/mit/) page.
 
   
