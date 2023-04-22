@@ -1,11 +1,11 @@
 
-  # README Generator
+  # README File Generator
   
-![License]( 
+![License](https://img.shields.io/static/v1?label=license&message=MIT&color=${badge.color})
 
   ## Description
   
-This app was built using npm inquirer to give the user prompts in the command line and then take those prompts and output a quality README.md file. It is simple to use and should help speed up development of your projects!
+This app allows the user to generate a quality README file for their project using inquirer to run through prompts in the command line.
   
 ## Table of Contents
   
@@ -23,11 +23,11 @@ This app was built using npm inquirer to give the user prompts in the command li
   
 ## Installation
   
-To install, be sure to open your command line and type ==npm install===, then run the app using ==node index.js==
+To install, pull down the files from the repo. Then run `npm install` in the directory you would like to work in. Once you've installed node_modules and your package.json, package-lock.json files, you're good to go!
   
 ## Usage
   
-To use the app, once you have it install, simply open a file in the directory you're working using "Open in Integrated Terminal", then enter ==node index.js==. Follow the prompts and your README.md file will be automatically generated once you've answered all of the prompts.
+Once you have installed the app, right click on one of your files in the directory you're working in. Click "Open in Integrated Terminal". Then in your command line, type `node index.js`. You will see that you begin to get prompts to fill in the details for your README sections. Fill out each prompt. At the end, the app will generate your README file automatically! 
   
 ## Contributing
   
@@ -35,7 +35,7 @@ Please let me know if you'd like to contribute to my project!
   
 ## Tests
   
-Please contact me below if you run into any bugs.
+If you run into any errors or bugs while using this app, please contact me.
   
 ## Questions
   
@@ -47,6 +47,6 @@ Have more questions? Head over to my github profile or email me:
   
 ## License
   
-License: MIT - see the [License]() page.
+License: MIT - see the [License](https://img.shields.io/static/v1?label=license&message=MIT&color=${badge.color}) page.
 
   

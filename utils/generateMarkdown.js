@@ -4,7 +4,7 @@ function generateMarkdown(responses) {
   const licenseUrl = renderLicenseLink(responses.license);
   const result = (`
   # ${responses.title}
-  \n![License](${badge} \n
+  \n![License]${badge} \n
   ## Description
   \n${responses.description}
   \n## Table of Contents
@@ -70,7 +70,7 @@ function renderLicenseBadge(license) {
     return '';
   } 
   
-  return `https://img.shields.io/static/v1?label=license&message=${badge.name}&color=${badge.color})`;
+  return `(https://img.shields.io/static/v1?label=license&message=${badge.name}&color=${badge.color})`;
 }
 
 //Create a function that returns the license link
